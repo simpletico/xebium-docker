@@ -1,7 +1,7 @@
 FROM selenium/standalone-firefox-debug
 MAINTAINER https://github.com/simpletico
 
-RUN dnf install -y git maven
+RUN apt-get install -y git maven
 
 RUN git clone https://github.com/xebia/Xebium.git
 
