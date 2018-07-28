@@ -3,7 +3,7 @@ MAINTAINER https://github.com/simpletico
 
 USER root
 
-RUN apt-get update && apt install -y git maven
+RUN apt-get update && apt-get install -y apt-utils && apt-get install -y git maven
 
 RUN git clone https://github.com/xebia/Xebium.git
 
